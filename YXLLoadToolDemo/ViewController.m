@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import "YXLLoadTool.h"
-#import <CommonCrypto/CommonCrypto.h>
 
 @interface ViewController ()
 
@@ -22,7 +21,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     
     [YXLLoadTool setLineColor:[UIColor whiteColor]];
-    [YXLLoadTool setBackGroundColor:[UIColor blackColor]];
+    [YXLLoadTool setBackGroundColor:[UIColor grayColor]];
     [YXLLoadTool setCornerRadius:26.f];
     [YXLLoadTool setLineWidth:5.f];
     [YXLLoadTool setFont:[UIFont fontWithName:@"PingFang TC" size:15.f]];

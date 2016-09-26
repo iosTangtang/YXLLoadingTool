@@ -47,7 +47,7 @@ static YXLLoadTool *loadTool = nil;
 - (UIView *)bgView {
     if (!_bgView) {
         _bgView = [[UIControl alloc] initWithFrame:self.frame];
-        _bgView.alpha = 0.5;
+        _bgView.alpha = 0.9;
         _bgView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
         _bgView.backgroundColor = [UIColor whiteColor];
     }
